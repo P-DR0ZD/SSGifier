@@ -1,13 +1,6 @@
 name: C++ CI
 
-on:
-  push:
-    branches:
-      - main
-
-    pull_rqeuest:
-      branches:
-        - main
+on: [push]
 
 jobs:
   build:
